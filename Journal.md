@@ -12,3 +12,11 @@ Finding a good LED for my project was pretty hard. I needed an LED that I could 
 ![Demo 1](https://github.com/Cherrytree56567/Arctic-Fox-Light/blob/master/Demo/1.png?raw=true)
 
 **Total time spent: 1h 40m 41s**
+
+# September 17th: Wiring Is Hard!
+
+Wiring up the MCU and the LEDs and stuff is really hard. Looking at diagrams and datasheets is even worser. Most of the datasheets didn't really show me what to wire up and where, so I had to look online, but there wasn't any info online. So I had to do my best, by reading the datasheet and connecting things. I wasn't really sure if what I had connected was 100% correct, but hopefully im lucky and I don't mess up somewhere. At least wiring up the PCB was easier.
+
+![Demo 2](https://github.com/Cherrytree56567/Arctic-Fox-Light/blob/master/Demo/2.png?raw=true)
+
+**Total time spent: 1h 19m 57s**
