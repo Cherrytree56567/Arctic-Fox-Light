@@ -20,3 +20,11 @@ Wiring up the MCU and the LEDs and stuff is really hard. Looking at diagrams and
 ![Demo 2](https://github.com/Cherrytree56567/Arctic-Fox-Light/blob/master/Demo/2.png?raw=true)
 
 **Total time spent: 1h 19m 57s**
+
+# September 17th: 3D Modelling
+
+Making the Arctic Fox was pretty hard because I have never tried to make minecraft characters before. Ive made enclosures so that part was a breeze. I was able to finish the fox head. Oh, by the way, this project is a part of my school's art project where we 3D Print a Minecraft Character and Paint it. I decided to turn it into a lamp, so I needed to use thin layers of white PLA. Ive used 1mm, but 0.5mm could give a greater result. Ill report back once its printed.
+
+![Demo 3](https://github.com/Cherrytree56567/Arctic-Fox-Light/blob/master/Demo/3.png?raw=true)
+
+**Total time spent: 2h 10m 25s**
