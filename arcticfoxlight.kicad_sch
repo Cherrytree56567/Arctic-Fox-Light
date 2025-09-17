@@ -5,174 +5,6 @@
 	(uuid "9890a3f0-a3de-4ec3-81f2-08fb536e7bb2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "C5117870_lib:GT-TC060A-H025-L1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GT-TC060A-H025-L1"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprint:SW-SMD_L6.1-W3.5-LS8.0"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/902766.html"
-				(at -2.286 0.127 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C5117870"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C5117870"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GT-TC060A-H025-L1_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.524 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1094,179 +926,6 @@
 				)
 			)
 			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2623,6 +2282,89 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -4041,12 +3783,6 @@
 		(uuid "5840dd78-2cc0-4b44-b2d3-3a7b6a986876")
 	)
 	(junction
-		(at 154.94 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b970cab-4cbe-4880-97f9-9d7a93072ba4")
-	)
-	(junction
 		(at 44.45 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4057,18 +3793,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e4b1d50-0379-489c-8d3c-4e37059771ca")
-	)
-	(junction
-		(at 154.94 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92459b5f-df15-467d-9c91-845e4949f646")
-	)
-	(junction
-		(at 176.53 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbed01e2-3c5a-424b-9814-40d8586d5805")
 	)
 	(junction
 		(at 29.21 62.23)
@@ -4115,6 +3839,10 @@
 	(no_connect
 		(at 77.47 41.91)
 		(uuid "3cffffc7-ce4c-4a38-96ae-44a6f1823d75")
+	)
+	(no_connect
+		(at 77.47 29.21)
+		(uuid "3d45c3d6-5007-4d1d-b373-cd704ff8bb87")
 	)
 	(no_connect
 		(at 133.35 49.53)
@@ -4177,42 +3905,16 @@
 		(uuid "d63b55fd-693c-4832-8fb2-66c9ce7e802c")
 	)
 	(no_connect
+		(at 77.47 34.29)
+		(uuid "d9a018fd-ddb8-4197-8fab-8c82d3e28ca4")
+	)
+	(no_connect
 		(at 44.45 50.8)
 		(uuid "e9e34ac9-a12f-47a1-8287-b6bf343fac0e")
 	)
 	(no_connect
 		(at 133.35 62.23)
 		(uuid "f6fde5d1-c43f-443f-b944-7d9d67a8b46f")
-	)
-	(wire
-		(pts
-			(xy 161.29 40.64) (xy 154.94 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ad68c02-4012-46fe-8d67-c7b45f0d79bd")
-	)
-	(wire
-		(pts
-			(xy 175.26 40.64) (xy 176.53 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee0434c-a867-422a-ac78-bffe4709dc16")
-	)
-	(wire
-		(pts
-			(xy 154.94 40.64) (xy 154.94 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18c7f7ad-b1d2-4a24-8c21-d85cc33815fa")
 	)
 	(wire
 		(pts
@@ -4306,46 +4008,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 154.94 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c7a619e-3fe1-4f35-969e-ff4102719917")
-	)
-	(wire
-		(pts
-			(xy 161.29 43.18) (xy 161.29 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f7c6ddc-55f2-4a66-adc6-4dd4431e7817")
-	)
-	(wire
-		(pts
-			(xy 154.94 38.1) (xy 154.94 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70248a86-85e8-4412-abf3-f8ad9485d8ef")
-	)
-	(wire
-		(pts
-			(xy 176.53 30.48) (xy 176.53 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cb11da8-a0f3-4f22-b211-ec31cd7ab70f")
-	)
-	(wire
-		(pts
 			(xy 90.17 16.51) (xy 96.52 16.51)
 		)
 		(stroke
@@ -4353,16 +4015,6 @@
 			(type default)
 		)
 		(uuid "87171306-2c01-4ac1-a91a-3df92ffbb186")
-	)
-	(wire
-		(pts
-			(xy 154.94 27.94) (xy 154.94 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b9816b6-156d-4cf7-95ff-248aeb9bd42a")
 	)
 	(wire
 		(pts
@@ -4376,16 +4028,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 161.29 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "990d9252-44ac-44b9-9cc8-3389502d708d")
-	)
-	(wire
-		(pts
 			(xy 196.85 45.72) (xy 207.01 45.72)
 		)
 		(stroke
@@ -4393,16 +4035,6 @@
 			(type default)
 		)
 		(uuid "a0092093-31bd-4e8e-a424-8c4fd022d46c")
-	)
-	(wire
-		(pts
-			(xy 176.53 40.64) (xy 176.53 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18f7167-b881-4c33-9cf6-801626d10be7")
 	)
 	(wire
 		(pts
@@ -4466,16 +4098,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 40.64) (xy 154.94 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc648ad4-1673-4410-b7c9-9da08dd093f8")
-	)
-	(wire
-		(pts
 			(xy 90.17 24.13) (xy 96.52 24.13)
 		)
 		(stroke
@@ -4506,26 +4128,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 50.8) (xy 161.29 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcdfa628-6c61-4ea0-89aa-325bb432ba2a")
-	)
-	(wire
-		(pts
-			(xy 176.53 38.1) (xy 176.53 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f736ea67-9e26-400a-a04e-a6f131d5d6c3")
-	)
-	(wire
-		(pts
 			(xy 29.21 60.96) (xy 29.21 62.23)
 		)
 		(stroke
@@ -4544,28 +4146,6 @@
 		)
 		(uuid "f9a1184d-2ba9-4bac-b9f8-232e2249fc3b")
 	)
-	(global_label "BOOT"
-		(shape input)
-		(at 77.47 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35a75835-98a5-4410-968a-837c74da619a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.5862 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DIN"
 		(shape input)
 		(at 69.85 52.07 180)
@@ -4579,50 +4159,6 @@
 		(uuid "6443e4ac-652f-4162-bc33-f90ff1a51d0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.6595 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN"
-		(shape input)
-		(at 77.47 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8b611691-4fe6-4029-bff6-c5c434a544d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.0053 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BOOT"
-		(shape input)
-		(at 175.26 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9825a58d-b6ba-4163-b931-92518a50f8bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.3762 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,28 +4230,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN"
-		(shape input)
-		(at 148.59 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5c8ef33-3c89-4362-8f3b-1d8092a342e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1253 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5032,159 +4546,6 @@
 		)
 	)
 	(symbol
-		(lib_id "C5117870_lib:GT-TC060A-H025-L1")
-		(at 176.53 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16a6dd1b-4081-4207-9f07-8d6fdc26117e")
-		(property "Reference" "SW2"
-			(at 180.34 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FLASH"
-			(at 180.34 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 186.69 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.403 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C318884"
-			(at 176.53 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/Tactile-Switches_G-Switch-GT-TC060A-H025-L1_C5117870.html"
-			(at 176.53 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe39d387-6db2-4d40-b67f-ec20848d3bbf")
-		)
-		(pin "2"
-			(uuid "7cf52499-b5c9-44b4-97e6-eebe65f0496c")
-		)
-		(instances
-			(project "arcticfoxlight"
-				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ae2256a-81c1-4a37-9ec3-7bd1c95f087a")
-		(property "Reference" "#PWR013"
-			(at 154.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "337f8688-ea94-4ee6-8ac7-8f21c3738d8e")
-		)
-		(instances
-			(project "arcticfoxlight"
-				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Switching:LM2596S-5")
 		(at 34.29 109.22 0)
 		(unit 1)
@@ -5258,6 +4619,70 @@
 			(project ""
 				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 66.04 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cb313a7-ee9b-4aed-8b40-12b86114fc13")
+		(property "Reference" "H1"
+			(at 68.58 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 68.58 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5857,72 +5282,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 176.53 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52ba12ef-4e3b-4a13-91d1-bcd211f08007")
-		(property "Reference" "#PWR012"
-			(at 176.53 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 176.53 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 176.53 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d6c1f6c-5bed-4746-bdc9-54ecb51d52df")
-		)
-		(instances
-			(project "arcticfoxlight"
-				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SN74AHCT125N:SN74AHCT125N")
 		(at 219.71 40.64 0)
 		(unit 1)
@@ -6215,72 +5574,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62617bd8-1150-4bff-a592-d47ab5ba4d2a")
-		(property "Reference" "#PWR014"
-			(at 176.53 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68a32bb2-b311-4e99-ab4b-113353795f6e")
-		)
-		(instances
-			(project "arcticfoxlight"
-				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 21.59 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6542,72 +5835,6 @@
 			(project "arcticfoxlight"
 				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 154.94 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7491d724-5aa6-444d-9caf-0804700180ef")
-		(property "Reference" "#PWR03"
-			(at 154.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 154.94 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 154.94 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1f5ea06-3e05-4a8a-87b9-31d7a008b53e")
-		)
-		(instances
-			(project "arcticfoxlight"
-				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7034,91 +6261,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 176.53 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f13789b-ba22-44f6-aff1-4699ff7b1bcb")
-		(property "Reference" "R4"
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 180.34 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 175.514 34.036 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10kΩ 0805 Chip Resistor"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17414"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e432e4b4-5558-4bf6-8739-361a6634d149")
-		)
-		(pin "2"
-			(uuid "e7188386-3d9d-4f85-8063-ab408f132f22")
-		)
-		(instances
-			(project "arcticfoxlight"
-				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 48.26 36.83 90)
 		(unit 1)
@@ -7314,93 +6456,6 @@
 			(project "arcticfoxlight"
 				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C5117870_lib:GT-TC060A-H025-L1")
-		(at 154.94 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b61662ee-eb41-46ac-bb4f-e32c5e81c17d")
-		(property "Reference" "SW1"
-			(at 151.13 46.355 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RESET"
-			(at 150.495 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 165.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.813 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C318884"
-			(at 154.94 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/Tactile-Switches_G-Switch-GT-TC060A-H025-L1_C5117870.html"
-			(at 154.94 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "923267b7-6cec-490c-8cc1-bc10e02f19ef")
-		)
-		(pin "2"
-			(uuid "c85d8407-af8a-45e0-8626-8a2a1c418dbf")
-		)
-		(instances
-			(project "arcticfoxlight"
-				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -8072,181 +7127,6 @@
 			(project ""
 				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0548d25-0de3-4227-8aa1-a45b17cba275")
-		(property "Reference" "C14"
-			(at 162.56 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 161.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 162.2552 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF 50V X7R ±10% 0805 Ceramic Cap SMD"
-			(at 161.29 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"
-			(at 161.29 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49678"
-			(at 161.29 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d6f9d15-3d99-432e-be40-af4832134912")
-		)
-		(pin "2"
-			(uuid "058be186-d069-43c8-ad93-dacc7deaea24")
-		)
-		(instances
-			(project "arcticfoxlight"
-				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 154.94 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbb0bd7d-db4e-4d59-974a-ecc3c89b34ce")
-		(property "Reference" "R5"
-			(at 156.845 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 156.845 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 155.956 34.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10kΩ 0805 Chip Resistor"
-			(at 154.94 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html"
-			(at 154.94 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17414"
-			(at 154.94 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1eec09f-d7ec-4578-b1a6-ac778964c110")
-		)
-		(pin "2"
-			(uuid "8e782c6a-7c74-485a-8449-0b58c8512bf3")
-		)
-		(instances
-			(project "arcticfoxlight"
-				(path "/9890a3f0-a3de-4ec3-81f2-08fb536e7bb2"
-					(reference "R5")
 					(unit 1)
 				)
 			)
