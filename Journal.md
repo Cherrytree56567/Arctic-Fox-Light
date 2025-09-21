@@ -36,3 +36,14 @@ Making the Arctic Fox was pretty hard because I have never tried to make minecra
 ![Demo 4](https://github.com/Cherrytree56567/Arctic-Fox-Light/blob/master/Demo/4.png?raw=true)
 
 **Total time spent: 58m 48s**
+
+# September 19th: Arctic Fox Matter Code!
+
+I was looking online for a way to get the ESP32 to support Matter, and I found out that there was ESP-IDF and ESP-Matter. To use these repo's though, it took me 2 days to clone. After that, I was able to use the [ESP Matter Tutorial](https://mattercoder.com/codelabs/how-to-code-a-matter-app-on-esp32/#2), which guided me through a simple LED Example. I was then able to modify it to add more features, like a permenant pin and a temperature, brightness, hue/sat. Unfortunatly, I don't have the ESP32 to test it out so here is a quick screenshot of my code.
+
+![Demo 5](https://github.com/Cherrytree56567/Arctic-Fox-Light/blob/master/Demo/5.png?raw=true)
+
+**Total time spent: 1h 57m**
+
+# Final Submission
+**Total time: 8h 4m**
