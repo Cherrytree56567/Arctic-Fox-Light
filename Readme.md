@@ -1,9 +1,10 @@
 # Minecraft Arctic Fox Lamp
-A simple lamp with a custom enclosure and pcb which allows users to change the color of the led via Smart Home Devices.
+A simple Minecraft Themed Arctic Fox Lamp that features an ESP32 C6 Mini with ESP Matter Support which supports Temperature, Hue/Sat and Brightness.
 
 ## Features
  - Custom Color LED
  - Smart Home Integration
+ - Matter Support
  - Enclosure
 
 ## Build
@@ -33,7 +34,17 @@ cd esp-matter
 source ./export.sh
 cd ../
 ```
-Then 
+
+Then build the project by running
+```
+idf.py build
+```
+
+## Running
+To run the application, run:
+```
+idf.py flash
+```
 
 ## Credits
  - [Template ESP32 Matter Repo](https://github.com/oidebrett/starter-esp-matter-app)
